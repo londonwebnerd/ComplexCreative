@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8cb223ac0d1d1ba5189cb2ff2dc29e9b",
+    "content-hash": "0f9d659a05a7db2ac5c0f69b3fe483dd",
     "packages": [
         {
             "name": "composer/installers",
@@ -1119,6 +1119,24 @@
             "time": "2022-10-16T01:01:54+00:00"
         },
         {
+            "name": "wpackagist-plugin/elementor",
+            "version": "3.15.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elementor/",
+                "reference": "tags/3.15.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.15.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elementor/"
+        },
+        {
             "name": "wpackagist-theme/twentytwentythree",
             "version": "1.1",
             "source": {
@@ -1851,7 +1869,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.0"
+        "php": ">=7.3"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
