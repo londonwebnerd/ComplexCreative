@@ -407,10 +407,10 @@ html {
     font-family: 'Big Caslon FB';
     src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BlackItalic.eot');
     src: local('Big Caslon FB Black Italic'), local('BigCaslonFB-BlackItalic'),
-        url('BigCaslonFB-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('BigCaslonFB-BlackItalic.woff2') format('woff2'),
-        url('BigCaslonFB-BlackItalic.woff') format('woff'),
-        url('BigCaslonFB-BlackItalic.ttf') format('truetype');
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BlackItalic.woff2') format('woff2'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BlackItalic.woff') format('woff'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
@@ -418,12 +418,12 @@ html {
 
 @font-face {
     font-family: 'Big Caslon FB';
-    src: url('BigCaslonFB-Bold.eot');
+    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Bold.eot');
     src: local('Big Caslon FB Bold'), local('BigCaslonFB-Bold'),
-        url('BigCaslonFB-Bold.eot?#iefix') format('embedded-opentype'),
-        url('BigCaslonFB-Bold.woff2') format('woff2'),
-        url('BigCaslonFB-Bold.woff') format('woff'),
-        url('BigCaslonFB-Bold.ttf') format('truetype');
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Bold.woff2') format('woff2'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Bold.woff') format('woff'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -431,12 +431,12 @@ html {
 
 @font-face {
     font-family: 'BigCaslon Expert';
-    src: url('BigCaslon-Expert.eot');
+    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Expert.eot');
     src: local('BigCaslon Expert'), local('BigCaslon-Expert'),
-        url('BigCaslon-Expert.eot?#iefix') format('embedded-opentype'),
-        url('BigCaslon-Expert.woff2') format('woff2'),
-        url('BigCaslon-Expert.woff') format('woff'),
-        url('BigCaslon-Expert.ttf') format('truetype');
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Expert.eot?#iefix') format('embedded-opentype'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Expert.woff2') format('woff2'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Expert.woff') format('woff'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Expert.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -444,12 +444,12 @@ html {
 
 @font-face {
     font-family: 'Big Caslon FB';
-    src: url('BigCaslonFB-Regular.eot');
+    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Regular.eot');
     src: local('Big Caslon FB Regular'), local('BigCaslonFB-Regular'),
-        url('BigCaslonFB-Regular.eot?#iefix') format('embedded-opentype'),
-        url('BigCaslonFB-Regular.woff2') format('woff2'),
-        url('BigCaslonFB-Regular.woff') format('woff'),
-        url('BigCaslonFB-Regular.ttf') format('truetype');
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Regular.woff2') format('woff2'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Regular.woff') format('woff'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -457,12 +457,12 @@ html {
 
 @font-face {
     font-family: 'Big Caslon FB';
-    src: url('BigCaslonFB-Black.eot');
+    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Black.eot');
     src: local('Big Caslon FB Black'), local('BigCaslonFB-Black'),
-        url('BigCaslonFB-Black.eot?#iefix') format('embedded-opentype'),
-        url('BigCaslonFB-Black.woff2') format('woff2'),
-        url('BigCaslonFB-Black.woff') format('woff'),
-        url('BigCaslonFB-Black.ttf') format('truetype');
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Black.eot?#iefix') format('embedded-opentype'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Black.woff2') format('woff2'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Black.woff') format('woff'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -470,12 +470,12 @@ html {
 
 @font-face {
     font-family: 'Big Caslon FB';
-    src: url('BigCaslonFB-Italic.eot');
+    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Italic.eot');
     src: local('Big Caslon FB Italic'), local('BigCaslonFB-Italic'),
-        url('BigCaslonFB-Italic.eot?#iefix') format('embedded-opentype'),
-        url('BigCaslonFB-Italic.woff2') format('woff2'),
-        url('BigCaslonFB-Italic.woff') format('woff'),
-        url('BigCaslonFB-Italic.ttf') format('truetype');
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Italic.woff2') format('woff2'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Italic.woff') format('woff'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
