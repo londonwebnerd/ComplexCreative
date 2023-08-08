@@ -66,7 +66,7 @@ get_header();
                     <div class="row">
                         <div class="col-3 team__member">
                             <div class="team__member-thumbnail">
-                                <img src="/images/team/1.png" alt="" class="team__member-thumbnail-img">
+                                <img src="https://complexcreative.dev.londonwebnerd.co.uk/app/uploads/2023/08/1.png" alt="" class="team__member-thumbnail-img">
                                 <a class="team__member-thumbnail-link" href="#" class="team__member-thumbnail-link"></a>
                             </div>
                             <div class="team__member-body">
@@ -76,7 +76,7 @@ get_header();
                         </div>
                         <div class="col-3 team__member">
                             <div class="team__member-thumbnail">
-                                <img src="/app/themes/marydinah-foundation/assets/Rectangle3@2x.png" alt="" class="team__member-thumbnail-img">
+                                <img src="https://complexcreative.dev.londonwebnerd.co.uk/app/uploads/2023/08/2.png" alt="" class="team__member-thumbnail-img">
                                 <a class="team__member-thumbnail-link" href="#" class="team__member-thumbnail-link"></a>
                             </div>
                             <div class="team__member-body">
@@ -86,7 +86,7 @@ get_header();
                         </div>
                         <div class="col-3 team__member">
                             <div class="team__member-thumbnail">
-                                <img src="/app/themes/marydinah-foundation/assets/Rectangle3@2x.png" alt="" class="team__member-thumbnail-img">
+                                <img src="https://complexcreative.dev.londonwebnerd.co.uk/app/uploads/2023/08/3.png" alt="" class="team__member-thumbnail-img">
                                 <a class="team__member-thumbnail-link" href="#" class="team__member-thumbnail-link"></a>
                             </div>
                             <div class="team__member-body">
@@ -96,7 +96,7 @@ get_header();
                         </div>
                         <div class="col-3 team__member">
                             <div class="team__member-thumbnail">
-                                <img src="/app/themes/marydinah-foundation/assets/Rectangle3@2x.png" alt="" class="team__member-thumbnail-img">
+                                <img src="https://complexcreative.dev.londonwebnerd.co.uk/app/uploads/2023/08/4.png" alt="" class="team__member-thumbnail-img">
                                 <a class="team__member-thumbnail-link" href="#" class="team__member-thumbnail-link"></a>
                             </div>
                             <div class="team__member-body">
@@ -113,7 +113,7 @@ get_header();
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2 class="section__head-title">Latest<br><strong>News & Stories</strong></h2>
+                            <h2 class="section__head-title">Latest<br><strong>News & Blogs</strong></h2>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@ get_header();
                     <div class="row">
                         <div class="col-4 news__item">
                             <div class="news__item-thumbnail">
-                                <img src="/images/posts/1.png" alt="" class="news__item-thumbnail-img">
+                                <img src="https://complexcreative.dev.londonwebnerd.co.uk/app/uploads/2023/08/1-1.png" alt="" class="news__item-thumbnail-img">
                                 <a class="news__item-thumbnail-link" href="#" class="news__item-thumbnail-link"></a>
                             </div>
                             <div class="news__item-body">
@@ -132,7 +132,7 @@ get_header();
                         </div>
                         <div class="col-4 news__item video">
                             <div class="news__item-thumbnail">
-                                <img src="/images/posts/2.png" alt="" class="news__item-thumbnail-img">
+                                <img src="https://complexcreative.dev.londonwebnerd.co.uk/app/uploads/2023/08/blog2.png" alt="" class="news__item-thumbnail-img">
                                 <a class="news__item-thumbnail-link" href="#" class="news__item-thumbnail-link"></a>
                             </div>
                             <div class="news__item-body">
@@ -141,7 +141,7 @@ get_header();
                         </div>
                         <div class="col-4 news__item video">
                             <div class="news__item-thumbnail">
-                                <img src="/images/posts/3.png" alt="" class="news__item-thumbnail-img">
+                                <img src="https://complexcreative.dev.londonwebnerd.co.uk/app/uploads/2023/08/blog3.png" alt="" class="news__item-thumbnail-img">
                                 <a class="news__item-thumbnail-link" href="#" class="news__item-thumbnail-link"></a>
                             </div>
                             <div class="news__item-body">
