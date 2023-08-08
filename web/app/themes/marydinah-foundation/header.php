@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="/app/themes/marydinah-foundation/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/app/themes/marydinah-foundation/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="/app/themes/marydinah-foundation/style.css">
+    <?php wp_head(); ?>
 </head>
 <body>
     <header class="header">
