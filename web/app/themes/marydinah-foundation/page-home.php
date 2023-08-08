@@ -23,7 +23,7 @@ get_header();
                             </div>
                         </div>
                         <div class="section__image">
-                            <div class="section__image-img" style="background-image: url(/images/image/2.png);"></div>
+                            <div class="section__image-img" style="background-image: url(/app/themes/marydinah-foundation/assets/Rectangle3@2x.png);"></div>
                             <div class="section__image-body">
                                 <h3 class="section__image-title">Our <br><strong>Mission</strong></h3>
                                 <div class="section__image-content">
@@ -35,7 +35,7 @@ get_header();
                             </div>
                         </div>
                         <div class="section__image">
-                            <div class="section__image-img" style="background-image: url(/images/image/3.png);"></div>
+                            <div class="section__image-img" style="background-image: url(/app/themes/marydinah-foundation/assets/Rectangle3@2x.png);"></div>
                             <div class="section__image-body">
                                 <h3 class="section__image-title">Contact <strong>Us</strong></h3>
                                 <div class="section__image-content">
@@ -50,9 +50,7 @@ get_header();
                 </div>
             </div>
         </section>
-
-
-
+        <?php the_content(); ?>
         <section class="section section-team heading-center">
             <div class="section__head">
                 <div class="container">
@@ -78,7 +76,7 @@ get_header();
                         </div>
                         <div class="col-3 team__member">
                             <div class="team__member-thumbnail">
-                                <img src="/images/team/2.png" alt="" class="team__member-thumbnail-img">
+                                <img src="/app/themes/marydinah-foundation/assets/Rectangle3@2x.png" alt="" class="team__member-thumbnail-img">
                                 <a class="team__member-thumbnail-link" href="#" class="team__member-thumbnail-link"></a>
                             </div>
                             <div class="team__member-body">
@@ -88,7 +86,7 @@ get_header();
                         </div>
                         <div class="col-3 team__member">
                             <div class="team__member-thumbnail">
-                                <img src="/images/team/3.png" alt="" class="team__member-thumbnail-img">
+                                <img src="/app/themes/marydinah-foundation/assets/Rectangle3@2x.png" alt="" class="team__member-thumbnail-img">
                                 <a class="team__member-thumbnail-link" href="#" class="team__member-thumbnail-link"></a>
                             </div>
                             <div class="team__member-body">
@@ -98,7 +96,7 @@ get_header();
                         </div>
                         <div class="col-3 team__member">
                             <div class="team__member-thumbnail">
-                                <img src="/images/team/4.png" alt="" class="team__member-thumbnail-img">
+                                <img src="/app/themes/marydinah-foundation/assets/Rectangle3@2x.png" alt="" class="team__member-thumbnail-img">
                                 <a class="team__member-thumbnail-link" href="#" class="team__member-thumbnail-link"></a>
                             </div>
                             <div class="team__member-body">

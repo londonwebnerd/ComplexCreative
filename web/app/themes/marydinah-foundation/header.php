@@ -31,7 +31,7 @@
                     <div class="header__logo">
                         <img class="header__logo-img" src="/app/themes/marydinah-foundation/assets/MDFLogo_V1.svg">
                         <img class="header__logo-img-secondary" src="/app/themes/marydinah-foundation/assets/ZHP-Logo.svg">
-                        <a href="#" class="header__logo-link"></a>
+                        <a href="/" class="header__logo-link"></a>
                     </div>
                     <div class="header__navigation">
                         <ul class="header__navigation--menu">

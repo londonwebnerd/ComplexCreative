@@ -979,11 +979,8 @@ section.section.section-news .news__item.video .news__item-thumbnail:after {
     transform: translate(-50%,-50%);
     background-position: center;
     background-repeat: no-repeat;
-    background-image:url(/images/icons/ico-play.png)
+    background-image:url(/app/themes/marydinah-foundation/assets/ico-play.png)
 }
-
-
-
 
 section.section.section-team {
     padding: 60px 0;
@@ -1028,7 +1025,6 @@ section.section.section-team .team__member .team__member-body .team__member-body
     color:#624C25;
     text-decoration: none;
 }
-
 
 section.section.section-images {
     padding-top: 100px;
@@ -1133,16 +1129,6 @@ section.section.section-images .section__image:nth-child(3) .section__image-body
     background:#2e2824;
 }
 
-/* Widgets
---------------------------------------------- */
-.widget {
-	margin: 0 0 1.5em;
-}
-
-.widget select {
-	max-width: 100%;
-}
-
 /* Media
 --------------------------------------------- */
 .page-content .wp-smiley,
@@ -1157,27 +1143,6 @@ section.section.section-images .section__image:nth-child(3) .section__image-body
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
 	display: inline-block;
-}
-
-/* Captions
---------------------------------------------- */
-.wp-caption {
-	margin-bottom: 1.5em;
-	max-width: 100%;
-}
-
-.wp-caption img[class*="wp-image-"] {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.wp-caption .wp-caption-text {
-	margin: 0.8075em 0;
-}
-
-.wp-caption-text {
-	text-align: center;
 }
 
 /* Galleries
