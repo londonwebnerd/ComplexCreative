@@ -398,138 +398,28 @@ html {
 
 /*--------------------------------------------------------------
 # Base
+
 --------------------------------------------------------------*/
+
+
 
 /* Typography
 --------------------------------------------- */
 
 @font-face {
-    font-family: 'Big Caslon FB';
-    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BlackItalic.eot');
-    src: local('Big Caslon FB Black Italic'), local('BigCaslonFB-BlackItalic'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BlackItalic.woff2') format('woff2'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BlackItalic.woff') format('woff'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BlackItalic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Big Caslon FB';
-    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Bold.eot');
-    src: local('Big Caslon FB Bold'), local('BigCaslonFB-Bold'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Bold.woff2') format('woff2'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Bold.woff') format('woff'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Bold.ttf') format('truetype');
+    font-family: 'Big Caslon CC';
+    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Bold.woff2') format('woff2'),
+        url('/fonts/BigCaslon/BigCaslonFB-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
-    font-family: 'BigCaslon Expert';
-    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Expert.eot');
-    src: local('BigCaslon Expert'), local('BigCaslon-Expert'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Expert.eot?#iefix') format('embedded-opentype'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Expert.woff2') format('woff2'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Expert.woff') format('woff'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Expert.ttf') format('truetype');
+    font-family: 'Big Caslon CC';
+    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Regular.woff2') format('woff2'),
+        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Big Caslon FB';
-    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Regular.eot');
-    src: local('Big Caslon FB Regular'), local('BigCaslonFB-Regular'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Regular.woff2') format('woff2'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Regular.woff') format('woff'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Big Caslon FB';
-    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Black.eot');
-    src: local('Big Caslon FB Black'), local('BigCaslonFB-Black'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Black.eot?#iefix') format('embedded-opentype'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Black.woff2') format('woff2'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Black.woff') format('woff'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Big Caslon FB';
-    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Italic.eot');
-    src: local('Big Caslon FB Italic'), local('BigCaslonFB-Italic'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Italic.eot?#iefix') format('embedded-opentype'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Italic.woff2') format('woff2'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Italic.woff') format('woff'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'BigCaslon Alternatives';
-    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Alternatives.eot');
-    src: local('BigCaslon Alternatives'), local('BigCaslon-Alternatives'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Alternatives.eot?#iefix') format('embedded-opentype'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Alternatives.woff2') format('woff2'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Alternatives.woff') format('woff'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-Alternatives.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'BigCaslon SmallCaps';
-    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-SmallCaps.eot');
-    src: local('BigCaslon SmallCaps'), local('BigCaslon-SmallCaps'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-SmallCaps.eot?#iefix') format('embedded-opentype'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-SmallCaps.woff2') format('woff2'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-SmallCaps.woff') format('woff'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslon-SmallCaps.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Big Caslon FB';
-    src: url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BoldItalic.eot');
-    src: local('Big Caslon FB Bold Italic'), local('BigCaslonFB-BoldItalic'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BoldItalic.woff2') format('woff2'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BoldItalic.woff') format('woff'),
-        url('/app/themes/marydinah-foundation/assets/fonts/BigCaslonFB-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'BigCaslon ItalicSwash';
-    src: url('BigCaslon-ItalicSwash.eot');
-    src: local('BigCaslon Italic Swash'), local('BigCaslon-ItalicSwash'),
-        url('BigCaslon-ItalicSwash.eot?#iefix') format('embedded-opentype'),
-        url('BigCaslon-ItalicSwash.woff2') format('woff2'),
-        url('BigCaslon-ItalicSwash.woff') format('woff'),
-        url('BigCaslon-ItalicSwash.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
     font-display: swap;
 }
 
@@ -608,63 +498,155 @@ big {
 
 /* Elements
 --------------------------------------------- */
+
 body {
-	background: #fff;
+    background-color: #EFE0CB;
 }
 
-hr {
-	background-color: #ccc;
-	border: 0;
-	height: 1px;
-	margin-bottom: 1.5em;
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+    font-family: 'Big Caslon CC';
+}
+main p {
+    font-family:"bilo";
 }
 
-ul,
-ol {
-	margin: 0 0 1.5em 3em;
+
+
+
+main {
+    margin-top: 300px;
 }
 
-ul {
-	list-style: disc;
+/* Header
+--------------------------------------------- */
+
+header.header {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header.header .header__logo {
+    margin: 0 auto 10px;
+    display: block;
+    position: relative;
+    width: 210px;
+    text-align: center;
+}
+header.header .header__logo .header__logo-img {
+    max-width: 100%;
+}
+header.header .header__logo .header__logo-img-secondary {
+    margin-top: 13px;
+}
+header.header .header__logo .header__logo-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+header.header .header__navigation {
+    border-bottom: 1px solid #AF7513;
+    padding: 15px;
+}
+header.header .header__navigation .header__navigation--menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin:  0 20px;
+}
+header.header .header__navigation .header__navigation--menu .menu-item {
+    list-style: none;
+    margin: 0 25px;
+}
+header.header .header__navigation .header__navigation--menu .menu-item a {
+    font-family: 'Big Caslon CC', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color:#624C25;
+    margin: 0;
+    text-decoration: none;
 }
 
-ol {
-	list-style: decimal;
-}
+/* Footer
+--------------------------------------------- */
 
-li > ul,
-li > ol {
-	margin-bottom: 0;
-	margin-left: 1.5em;
+footer.footer {
+    background-color: #2E2824;
+    padding-top: 37px;
+    padding-bottom: 49px;
 }
-
-dt {
-	font-weight: 700;
+footer.footer .footer__logo {
+    margin: 0 auto 8px;
+    display: block;
+    position: relative;
+    width: 210px;
+    text-align: center;
 }
-
-dd {
-	margin: 0 1.5em 1.5em;
+footer.footer .footer__logo .footer__logo-img {
+    max-width: 100%;
 }
-
-/* Make sure embeds and iframes fit their containers. */
-embed,
-iframe,
-object {
-	max-width: 100%;
+footer.footer .footer__logo .footer__logo-img-secondary {
+    margin-top: 13px;
 }
-
-img {
-	height: auto;
-	max-width: 100%;
+footer.footer .footer__logo .footer__logo-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
-
-figure {
-	margin: 1em 0;
+footer.footer .footer__social .footer__social--icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0;
 }
-
-table {
-	margin: 0 0 1.5em;
-	width: 100%;
+footer.footer .footer__social .footer__social--icons .social-item {
+    list-style: none;
+    margin: 0 10px;
+}
+footer.footer .footer__social .footer__social--icons .social-item a {
+    display: block;
+    width: 43px;
+    height: 43px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+footer.footer .footer__social .footer__social--icons .social-item.instagram a {
+    background-image: url(/app/themes/marydinah-foundation/assets/socialMedia/ico-instagram.svg);
+}
+footer.footer .footer__social .footer__social--icons .social-item.twitter a {
+    background-image: url(/app/themes/marydinah-foundation/assets/socialMedia/ico-twitter.svg);
+}
+footer.footer .footer__social .footer__social--icons .social-item.linkedin a {
+    background-image: url(/app/themes/marydinah-foundation/assets/socialMedia/ico-linkedin.svg);
+}
+footer.footer .footer__copyright {
+    margin-top: 15px;
+}
+footer.footer .footer__copyright p {
+    font-family: 'Big Caslon CC', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color:#D6B891;
+    text-align: center;
+    margin: 0;
 }
 
 /* Links

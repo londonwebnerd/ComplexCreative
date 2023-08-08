@@ -10,50 +10,41 @@
  */
 
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-
-	<?php wp_head(); ?>
+    <title><?php bloginfo( 'name' ); ?></title>
+    <link rel="stylesheet" href="/app/themes/marydinah-foundation/css/normalize.css">
+    <link rel="stylesheet" href="/app/themes/marydinah-foundation/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/app/themes/marydinah-foundation/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/app/themes/marydinah-foundation/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/app/themes/marydinah-foundation/style.css">
 </head>
-
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'mary-dinah-foundation' ); ?></a>
-
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$mary_dinah_foundation_description = get_bloginfo( 'description', 'display' );
-			if ( $mary_dinah_foundation_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $mary_dinah_foundation_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'mary-dinah-foundation' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="header__logo">
+                        <img class="header__logo-img" src="/app/themes/marydinah-foundation/assets/MDFLogo_V1.svg">
+                        <img class="header__logo-img-secondary" src="/app/themes/marydinah-foundation/assets/ZHP-Logo.svg">
+                        <a href="#" class="header__logo-link"></a>
+                    </div>
+                    <div class="header__navigation">
+                        <ul class="header__navigation--menu">
+                            <li class="menu-item"><a href="#">About Us</a></li>
+                            <li class="menu-item"><a href="#">Our Programs</a></li>
+                            <li class="menu-item"><a href="#">Our Partners</a></li>
+                            <li class="menu-item"><a href="#">Success Stories</a></li>
+                            <li class="menu-item"><a href="#">Media</a></li>
+                            <li class="menu-item"><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+	<body <?php body_class(); ?>>
+	<?php wp_body_open(); ?>

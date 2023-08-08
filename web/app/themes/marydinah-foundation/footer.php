@@ -10,25 +10,31 @@
  */
 
 ?>
+<footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="footer__logo">
+                        <img class="footer__logo-img" src="/app/themes/marydinah-foundation/assets/MDFLogo_V1.svg">
+                        <img class="footer__logo-img-secondary" src="/app/themes/marydinah-foundation/assets/ZHP-Logo.svg">
+                        <a href="#" class="footer__logo-link"></a>
+                    </div>
+                    <div class="footer__social">
+                        <ul class="footer__social--icons">
+                            <li class="social-item instagram"><a href="#"></a></li>
+                            <li class="social-item twitter"><a href="#"></a></li>
+                            <li class="social-item linkedin"><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__copyright">
+                        <p>Copyright © 2023 Mary Dinah Foundation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'mary-dinah-foundation' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'mary-dinah-foundation' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'mary-dinah-foundation' ), 'mary-dinah-foundation', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
-<?php wp_footer(); ?>
-
+    <script src="/app/themes/marydinah-foundation/js/owl.carousel.min.js"></script>
+    
 </body>
 </html>
