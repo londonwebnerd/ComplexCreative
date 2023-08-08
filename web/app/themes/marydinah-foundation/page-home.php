@@ -10,7 +10,7 @@ get_header();
                 <div class="row justify-content-center">
                     <div class="col-10">
                         <div class="section__image">
-                            <div class="section__image-img" style="background-image: url(/images/image/1.png);"></div>
+                            <div class="section__image-img" style="background-image: url(/app/themes/marydinah-foundation/assets/ZHP-Logo.svg);"></div>
                             <div class="section__image-body">
                                 <h3 class="section__image-title">Our <br><strong>Story</strong></h3>
                                 <div class="section__image-content">
@@ -155,3 +155,5 @@ get_header();
             </div>
         </section>
     </main>
+<?php
+get_footer();
